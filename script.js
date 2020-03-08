@@ -1,2 +1,2 @@
-$('.contact-element-telephone').hover(function(){$('.contact-link-telephone').toggleClass('hover-white');});
-$('.contact-element-mail').hover(function(){$('.contact-link-mail').toggleClass('hover-white');});
+$('.contact-element-telephone').hover(function(){$('.contact-link-telephone').toggleClass('hover-white');}); //setting white color - telephone button
+$('.contact-element-mail').hover(function(){$('.contact-link-mail').toggleClass('hover-white');}); //setting white color - mail button
