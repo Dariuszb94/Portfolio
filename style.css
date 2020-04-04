@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=B612&display=swap');
 html, p, a{
     font-family: 'B612', sans-serif;
-    text-decoration: none !important;
+    text-decoration: none;
 }
 .main{
     display: grid;
@@ -17,9 +17,6 @@ html{
 .two, .three, .one{
     border-top:2px ridge #007bff;
     padding-top:20px;
-}
-h4{
-    color:#007bff;
 }
 /*intro section */
 .intro::after {
@@ -157,7 +154,7 @@ h4{
 }
 .menuToggle a:hover
 {
-    color: tomato;
+    color: #007bff;
 }
 #menuToggle input
 {
