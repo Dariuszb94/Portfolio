@@ -2,6 +2,7 @@
 html, p, a{
     font-family: 'B612', sans-serif;
     text-decoration: none !important;
+    color:#007bff;
 }
 .main{
     display: grid;
@@ -15,8 +16,11 @@ html{
     padding-bottom:40px;
 }
 .two, .three{
-    border-top:2px ridge gray;
+    border-top:2px ridge #007bff;
     padding-top:20px;
+}
+h4{
+    color:#007bff;
 }
 /*intro section */
 .intro::after {
@@ -306,11 +310,14 @@ html{
     .contact-element{
         margin-right: 10px;
     } 
+    .main {
+        padding: 20px;
+    }
 }
 
 @media screen and (max-width: 640px) {
     .main {
-        padding: 20px;
+        padding: 10px;
     }
     .intro {
         text-align: right;
