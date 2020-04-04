@@ -306,7 +306,7 @@ html{
         padding: 10px;
     } 
     .contact-element{
-        margin-right: 10px;
+        margin-right: 5px;
     } 
     .main {
         padding: 20px;
@@ -331,5 +331,8 @@ html{
     }
     .menuToggle a {
         font-size: 1.2rem;
+    }
+    p{
+        font-size:14px;
     }
 }
