@@ -103,7 +103,6 @@ html{
 }
 .link-image{
     width: 100%;
-    border-radius:5%;
 }
 .codeButton, .demoButton{
     width: 50%;
@@ -290,9 +289,12 @@ html{
 @media screen and (max-width: 768px) {
     .works{
         grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
     }
     .frontend-img{
-        width: 90px;
+        width: 80px;
     }
     .intro {
         padding: 10px;
@@ -319,6 +321,6 @@ html{
         font-size: 1.2rem;
     }
     .frontend-img{
-        width: 70px;
+        width: 62px;
     }
 }
