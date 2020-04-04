@@ -311,6 +311,9 @@ html{
     .main {
         padding: 20px;
     }
+    p,a{
+        font-size:14px;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -333,6 +336,6 @@ html{
         font-size: 1.2rem;
     }
     p,a{
-        font-size:14px;
+        font-size:12px;
     }
 }
