@@ -2,7 +2,6 @@
 html, p, a{
     font-family: 'B612', sans-serif;
     text-decoration: none !important;
-    color:black;
 }
 .main{
     display: grid;
@@ -15,7 +14,7 @@ html{
     padding-right:40px;
     padding-bottom:40px;
 }
-.two, .three{
+.two, .three, .one{
     border-top:2px ridge #007bff;
     padding-top:20px;
 }
@@ -55,13 +54,15 @@ h4{
     position: relative;
     list-style-type:none;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
     float: right;
     bottom:0;
+    align-items: center;
+    justify-items: center;
 }
 .icon{
-    color:black;
+    color:#007bff;
     font-size: 2.5rem;
 }
 .icon:hover{
