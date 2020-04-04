@@ -2,7 +2,6 @@
 html, p, a{
     font-family: 'B612', sans-serif;
     text-decoration: none !important;
-    color:black !important;
 }
 .main{
     display: grid;
@@ -100,7 +99,7 @@ html{
 }
 .work{
     text-align: center;
-    border: 1px solid #007bff;
+    border: 2px solid #007bff;
 }
 .link-image{
     width: 100%;
@@ -122,11 +121,14 @@ html{
     flex-direction: row;
 }
 .contact-element{
-    margin-right: 30px;
+    margin-right: 10px;
 }
 .hover-white {
     color:white !important;
     font-weight: 600;
+}
+.contact-link{
+    white-space:pre-wrap;
 }
 /*menu*/
 .menuToggle
