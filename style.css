@@ -106,6 +106,7 @@ html{
 }
 .codeButton, .demoButton{
     width: 50%;
+    margin-bottom:8px;
 }
 .project-tech{
     color: #007bff;
