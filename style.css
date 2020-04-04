@@ -294,7 +294,7 @@ html{
         justify-items: center;
     }
     .frontend-img{
-        width: 80px;
+        width: 75px;
     }
     .intro {
         padding: 10px;
@@ -324,6 +324,6 @@ html{
         font-size: 1.2rem;
     }
     .frontend-img{
-        width: 62px;
+        width: 60px;
     }
 }
