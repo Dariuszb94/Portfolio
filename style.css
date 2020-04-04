@@ -89,7 +89,7 @@ h4{
   }
 }
 .frontend-img{
-    width: 100px;
+    width: 12%;
     height: 100%;
 }
 .frontend-skills{
@@ -301,9 +301,6 @@ h4{
         align-items: center;
         justify-items: center;
     }
-    .frontend-img{
-        width: 55px;
-    }
     .intro {
         padding: 10px;
     } 
@@ -333,8 +330,5 @@ h4{
     }
     .menuToggle a {
         font-size: 1.2rem;
-    }
-    .frontend-img{
-        width: 45px;
     }
 }
